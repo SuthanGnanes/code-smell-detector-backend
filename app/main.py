@@ -294,7 +294,7 @@ def detect_smells(class_metrics, method_metrics):
                     report.append(entry)
 
                 except Exception as e:
-                    print(f"❌ Error processing {level_type}-level smell "
+                    print(f" Error processing {level_type}-level smell "
                           f"{smell_type} at row {idx}: {e}")
                     continue
 
